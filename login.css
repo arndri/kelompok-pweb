@@ -1,0 +1,98 @@
+body {
+	background-color: #dddddd;
+	font-family: 'Nunito', sans-serif;
+}
+
+#sign {
+	margin: auto;
+	width: 960px;
+}
+
+
+#main-sign {
+	width: 100%;
+	min-height: auto;
+}
+
+#isi {
+	padding-top: 15rem;
+	width: 45%;
+	height: 100%;
+	float: left;
+	background-color: white;
+}
+
+#isi form{
+	margin-top: 0;
+	margin-left: 20;
+  margin-right: 20;
+}
+
+#isi form input.box {
+	width:100%;
+	height: 1%;
+  padding: 1rem;
+  border: .1rem solid rgba(0,0,0,.3);
+  font-size: 1rem;
+  text-transform: none;
+}
+
+#isi input .submit{
+  display: block;
+  color: grey;
+  background-color: white;
+	text-align: center;
+	padding: 19;
+  padding-right: 315;
+	text-decoration: none;
+}
+
+#isi input.btn{
+  display: block;
+	width: 100%;
+	color: white;
+  background-color: #71DFE7;
+	padding: .8rem 3rem;
+  padding-right: 315;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	border: .2rem solid;
+}
+
+#or p a.button {
+	display: block;
+	color: white;
+  background-color: #3b5998;
+	text-align: center;
+	padding: 19 16;
+	text-decoration: none;
+}
+
+#or p a.button-add {
+	display: block;
+	color: white;
+    background-color: #5FA9FF;
+	text-align: center;
+	padding: 19 16;
+	text-decoration: none;
+}
+
+#or p a.btn{
+	display: block;
+	color: white;
+  background-color: #db4a39;
+	text-align: center;
+	padding: 19 16;
+	text-decoration: none;
+}
+
+#gambar img {
+	width: 50%;
+	height: 100%;
+	overflow: auto;
+	float: left;
+	background-color: #eeeeee;
+	border-left: 1px grey solid;
+}
