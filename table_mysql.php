@@ -1,5 +1,11 @@
 <?php
 include "config.php";
+$sql = "CREATE TABLE IF NOT EXISTS pengguna (
+    id INT(10) NOT NULL PRIMARY KEY,
+    email VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    username VARCHAR(20) NOT NULL
+  )";
 //Ambil Data
 $email=mysqli_real_escape_string($conn, $_REQUEST['email']);
 $password=mysqli_real_escape_string($conn, $_REQUEST['password']);
